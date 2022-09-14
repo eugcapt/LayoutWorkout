@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
        // setContentView(R.layout.activity_main)
         supportActionBar?.hide()
-        activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         activityMainBinding.button.setOnClickListener { changeText() }
 
     }
