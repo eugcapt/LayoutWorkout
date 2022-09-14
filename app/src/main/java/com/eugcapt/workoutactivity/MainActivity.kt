@@ -21,5 +21,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun changeText() {
         activityMainBinding.textView.setText("Data Binding")
+
+        }
     }
-}
